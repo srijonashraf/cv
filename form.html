@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="This is the form page to contact with Srijon Ashraf:" content="">
+  <title>Message Me</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body id="formbody">
+
+  <form action="mailto:srijonashraf@gmail.com" method="post" enctype="text/plain">
+
+
+    <fieldset>
+
+      <legend id="l1">Information</legend>
+
+      <label>Name:</label><br>
+
+      <input type="text" name="Your name" value=""><br><br>
+
+      <label>Email Address:</label><br>
+
+      <input type="email" name="Your Email" value=""><br><br>
+
+      <label>Password:</label><br>
+      <input type="password" name="Password" value=""><br><br>
+
+      <label>Date of Birth:</label>
+      <input type="date" name="Birthday" value=""><br><br>
+      <label>Birthday Time:</label>
+      <input type="time" name="Birthdaytime" value=""><br><br>
+
+      <label>Lucky Number</label>
+      <input type="number" name="number" value="0" min="0" max="9"><br><br>
+
+      <label>Phone Number:</label><br><br>
+      <input type="tel" name="phone" placeholder="12345678900" pattern="[0-1]{2}[3-9]{1}[0-9]{8}" required><br><br>
+
+      <label>Attach your CV</label>
+      <input type="file" name="file" value=""><br><br>
+
+
+
+
+    </fieldset><br>
+
+    <fieldset>
+      <legend>Interest</legend>
+
+
+      <br><label>Gender: </label>
+
+      <input type="radio" name="Radio" value="">
+      <label>Male</label>
+
+      <input type="radio" name="Radio" value="">
+      <label>Female</label>
+
+      <input type="radio" name="" value="">
+      <label>Custom</label><br><br>
+
+      <label>Interested in:</label><br>
+      <input type="checkbox" name="" value="">
+      <label>Male</label><br>
+      <input type="checkbox" name="" value="">
+      <label>Female</label><br>
+      <input type="checkbox" name="" value="">
+      <label>Both</label>&nbsp&nbsp
+
+      <button type="button" name="button" onclick="alert('Do not use Vpn its harmfull for your health!')">Try me!</button><br><br>
+
+      <label>Choose a Car: </label>
+
+      <select class="" name="Cars">
+        <option value="Volvo">Volvo</option>
+        <option value="Audi">Audi</option>
+        <option value="Benzed" selected>Benzed</option>
+
+      </select><br><br>
+
+      <label>Your favorite browsers:</label>
+      <input list="browsers">
+      <datalist id="browsers">
+        <option value="Internet Explorer">
+        <option value="Firefox">
+        <option value="Chrome">
+        <option value="Opera">
+        <option value="Safari">
+      </datalist><br><br>
+    </fieldset><br>
+
+    <fieldset>
+      <legend>Message</legend>
+
+      <label>Say Something?</label><br><br>
+      <textarea name="message" rows="10" cols="40"></textarea><br>
+
+      <input type="submit"> <input type="reset">
+
+    </fieldset>
+
+
+
+
+  </form>
+
+</body>
+
+</html>
